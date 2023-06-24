@@ -19,7 +19,7 @@ export const sendTempEmail = async ({ to, subject }: EmailParams) => {
         const EMAIL_PORT = 587; //2525;
 
         const SENDER_USERNAME = process.env.EMAIL_USERNAME || 'm.haideralimughal.m@gmail.com';
-        const SENDER_PASSWORD = process.env.EMAIL_PASSWORD || 'fkahummsbzeohqgp';
+        const SENDER_PASSWORD = process.env.EMAIL_PASSWORD || 'fkahummdxfcgvhbsbzeohqgp';
 
         // Read the email template file
         const templatePath = path.join(__dirname, 'Confirmation email.html');
